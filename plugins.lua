@@ -83,6 +83,11 @@ local plugins = {
             require("core.utils").load_mappings "crates"
         end,
     },
+    -- codium
+    {
+        "Exafunction/codeium.vim",
+        event = "BufEnter",
+    },
     -- vim be good
     {
         "ThePrimeagen/vim-be-good",

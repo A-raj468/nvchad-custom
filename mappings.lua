@@ -4,7 +4,7 @@ local M = {}
 M.general = {
     n = {
         [";"] = { ":", "enter command mode", opts = { nowait = true } },
-        ["<C-q>"] = { ":qa<CR>", "Quit neovim" },
+        ["<C-q>"] = { "<CMD>qa<CR>", "Quit neovim" },
         ["<C-d>"] = { "<C-d>zz", "Moves half page Down" },
         ["<C-u>"] = { "<C-u>zz", "Moves half page Up" },
         ["<n>"] = { "<nzzzv", "" },
